@@ -4,12 +4,13 @@
 This is a weather sensor API Java Spring Boot project that uses a MongoDB.
 
 ## Setup:
-1. Import the `api` project into Intellij.
-2. Run `docker-compose.yaml` located inside the `api` folder. The server port is set to 8081. Edit it if you would like to use another port.
-3. Start up the newly created Docker containers.
-4. Go to http://localhost:8081/ and create a database called 'sensordata'. 
-5. Click into the newly created database and create a collection named 'sensorData'.
-6. Run the `ApiApplication` class inside Intellij. The application will run on http://localhost:8080/.
+1. Clone this repo.
+2. Import the `jubilant-fiesta` project into Intellij.
+3. Run `docker-compose.yaml` located inside the `api` folder. The server port is set to 8081. Edit it if you would like to use another port.
+4. Start up the newly created Docker containers.
+5. Go to http://localhost:8081/ and create a database called 'sensordata'. 
+6. Click into the newly created database and create a collection named 'sensorData'.
+7. Run the `ApiApplication` class inside Intellij. The application will run on http://localhost:8080/.
 
 ## How to use:
 The application can receive new metric values as the weather changes around the sensor via an API call. This can be done in two ways:
