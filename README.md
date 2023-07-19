@@ -50,6 +50,6 @@ Example queries:
    curl --location 'http://localhost:8080/api/sensor/data?sensorId=1%2C2&metric=temperature&statistic=avg&from=2023-07-15T12%3A00%3A00&to=2023-07-19T18%3A00%3A00'
    ```
 - Give me the max temperature from the last day for sensor 1.
-```shell
+   ```shell
    curl --location 'http://localhost:8080/api/sensor/data?sensorId=1&metric=temperature&statistic=max&from=&to='
    ```
